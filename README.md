@@ -2,6 +2,10 @@
 
 If you want use this config do this
 
+![Dark theme](./Wallpapaers/dt.png)
+
+![Dark theme](./Wallpapaers/lt.png)
+
 ## Gnome shell theme
 
 #### Icons: [Kora](https://www.pling.com/p/1256209)

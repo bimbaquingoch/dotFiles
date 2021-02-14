@@ -2,8 +2,9 @@
 
 ### Terminal
 
-Gogh [Gogh](https://mayccoll.github.io/Gogh/)
-oh my zsh [ohmyzsh](https://ohmyz.sh/)
+#### Gogh [Gogh](https://mayccoll.github.io/Gogh/)
+
+#### oh my zsh [ohmyzsh](https://ohmyz.sh/)
 
 ## Gnome shell theme
 

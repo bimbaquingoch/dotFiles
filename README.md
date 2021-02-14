@@ -4,7 +4,7 @@ If you want use this config do this
 
 ![Dark theme](./Wallpapaers/dt.png)
 
-![Dark theme](./Wallpapaers/lt.png)
+![Light theme](./Wallpapaers/lt.png)
 
 ## Gnome shell theme
 
@@ -46,3 +46,7 @@ sh darklightTheme.sh
 #### Gogh [Gogh](https://mayccoll.github.io/Gogh/)
 
 #### oh my zsh [ohmyzsh](https://ohmyz.sh/)
+
+## My text editor config
+
+#### Neovim [nvcode](https://github.com/bimbaquingoch/newNvcode.git)

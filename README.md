@@ -49,4 +49,4 @@ sh darklightTheme.sh
 
 ## My text editor config
 
-#### Neovim [nvcode](https://github.com/bimbaquingoch/newNvcode.git)
+#### Neovim [newNvcode](https://github.com/bimbaquingoch/newNvcode.git)

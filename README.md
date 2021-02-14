@@ -33,7 +33,12 @@ sudo mv ~/WhiteSur-dark /usr/share/themes
 ```
 unzip -q ~/Downloads/kora_1-4-1.zip -d ~/Downloads/kora
 sudo mv ~/Downloads/kora/\* /usr/share/icons
+```
 
+#### finally clone this repo and
+
+```
+sh darklightTheme.sh
 ```
 
 ## Terminal

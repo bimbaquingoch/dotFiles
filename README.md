@@ -47,6 +47,8 @@ sh darklightTheme.sh
 
 #### oh my zsh [ohmyzsh](https://ohmyz.sh/)
 
+#### Copy the gtk.css file to ~/.config/gtk-3.0
+
 ## My text editor config
 
 #### Neovim [newNvcode](https://github.com/bimbaquingoch/newNvcode.git)

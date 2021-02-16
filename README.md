@@ -43,9 +43,19 @@ sh darklightTheme.sh
 
 ## Terminal
 
-#### Gogh [Gogh](https://mayccoll.github.io/Gogh/)
+### First install zsh
+
+```
+sudo apt-get install zsh
+```
 
 #### oh my zsh [ohmyzsh](https://ohmyz.sh/)
+
+```
+sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
+
+#### Gogh [Gogh](https://mayccoll.github.io/Gogh/)
 
 #### Copy the gtk.css file to ~/.config/gtk-3.0
 

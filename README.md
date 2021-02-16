@@ -55,10 +55,10 @@ sudo apt-get install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
-#### Gogh [Gogh](https://mayccoll.github.io/Gogh/)
+#### [Gogh](https://mayccoll.github.io/Gogh/) here you find themes for your terminal
 
 #### Copy the gtk.css file to ~/.config/gtk-3.0
 
-## My text editor config
+## My text editor
 
-#### Neovim [newNvcode](https://github.com/bimbaquingoch/newNvcode.git)
+#### [newNvcode](https://github.com/bimbaquingoch/newNvcode.git) go to this repo

@@ -61,7 +61,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 #### Copy the gtk.css
 
 ```
-git clone https://github.com/bimbaquingoch/ubuntuConfig.git
+git clone https://github.com/bimbaquingoch/ubuntuConfig.git && cd ubuntuConfig
 sudo cp gtk.css ~/.config/gtk-3.0/
 ```
 

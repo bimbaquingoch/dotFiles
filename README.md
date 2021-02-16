@@ -49,7 +49,7 @@ sh darklightTheme.sh
 sudo apt-get install zsh
 ```
 
-#### oh my zsh [ohmyzsh](https://ohmyz.sh/)
+#### [oh my zsh](https://ohmyz.sh/)
 
 ```
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

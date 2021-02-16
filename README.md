@@ -71,7 +71,7 @@ sudo cp gtk.css ~/.config/gtk-3.0/
 gsettings set org.gnome.desktop.wm.preferences button-layout :
 ```
 
-#### to restore this the buttons run
+#### to restore this buttons run
 
 ```
 gsettings reset org.gnome.desktop.wm.preferences button-layout

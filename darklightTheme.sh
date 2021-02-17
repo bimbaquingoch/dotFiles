@@ -23,5 +23,5 @@ else
 	gsettings set org.gnome.desktop.interface gtk-theme 'WhiteSur-dark'
 	gsettings set org.gnome.shell.extensions.user-theme name 'WhiteSur-dark' 
 	gsettings set org.gnome.desktop.background picture-uri $dark
-	gsettings set org.gnome.desktop.interface icon-theme 'kora-pgrey'
+	gsettings set org.gnome.desktop.interface icon-theme 'kora-grey'
 fi

@@ -6,7 +6,7 @@ hour=`date +%H`
 
 # save the images in variables
 
-ligth="file://$HOME/Pictures/Wallpapers/ligth.png"
+ligth="file://$HOME/Pictures/Wallpapers/light.png"
 dark="file://$HOME/Pictures/Wallpapers/dark.png"
 
 # if you want change the hours and run this using cron

@@ -1,7 +1,3 @@
-## My Ubuntu config
-
-## Terminal
-
 ### First install zsh
 
 ```

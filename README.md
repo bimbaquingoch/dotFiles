@@ -10,6 +10,14 @@ sudo apt-get install zsh git-core -y
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 ```
 
+#### [powerlevel10k](https://github.com/romkatv/powerlevel10k)
+
+- First install powerlevel10k then copy this file
+
+```
+cp .zshrc
+```
+
 #### Copy the gtk.css
 
 ```
@@ -17,10 +25,31 @@ git clone https://github.com/bimbaquingoch/ubuntuConfig.git && cd ubuntuConfig
 sudo cp gtk.css ~/.config/gtk-3.0/
 ```
 
-#### to disable close, minimize and maximize buttons run this
+- alacritty.yml
+
+  ```
+   ~/.config/alacritty/alacritty.yml
+  ```
+
+- bspwn and bspwn_resize
+
+  ```
+  ~/.config/bspwn/bspwmrc
+  ~/.config/bspwm/scripts/bspwm_resize
+  ```
+
+- compton.conf
+
+  ```
+  ~/.config/compton/compton.conf
+  ```
+
+- sxhkrc
+
+  ```
+  ~/.config/sxhkrc/sxhkrc
+  ```
 
 ## My text editor
 
 #### [newNvcode](https://github.com/bimbaquingoch/newNvcode.git) go to this repo
-
-## Finally

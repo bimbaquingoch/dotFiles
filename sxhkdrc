@@ -132,5 +132,15 @@ alt + super + {Left,Down,Up,Right}
 super + shift + g
 	brave-browser-stable
 
-super + shift + s
+# screenshots
+
+Print
 	gnome-screenshot
+
+shift + Print
+	gnome-screenshot -a
+
+# file explorer
+
+super + e
+	xdg-open .

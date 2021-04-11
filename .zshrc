@@ -55,11 +55,12 @@ PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/
 # Manual aliases
 alias ll='lsd -lh --group-dirs=first'
 alias la='lsd -a --group-dirs=first'
-alias l='lsd --group-dirs=first'
+alias l='lsd -l'
 alias lla='lsd -lha --group-dirs=first'
 alias ls='lsd --group-dirs=first'
 alias cat='bat'
 alias catn='/usr/bin/cat'
+alias ..='cd ..'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 

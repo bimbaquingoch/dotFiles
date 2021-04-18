@@ -142,6 +142,11 @@ super + shift + o
 super + shift + g
 	brave-browser-stable
 
+#github
+
+super + shift + h
+	brave-browser-stable https://www.github.com/ &
+
 # screenshots
 
 Print

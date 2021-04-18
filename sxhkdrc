@@ -127,6 +127,16 @@ alt + super + {Left,Down,Up,Right}
 # CUSTOM
 # ---------------------------------------------
 
+# floating menu
+
+super + space
+	bash ~/.config/polybar/colorblocks/scripts/launcher.sh
+
+# power menu
+
+super + shift + o
+	bash ~/.config/polybar/colorblocks/scripts/powermenu.sh
+
 # Google-Chrome
 
 super + shift + g
@@ -151,9 +161,9 @@ super + e
 # 	xrandr --output eDP-1-1 --brightness {0.3,0.5,0.7,1.2} 
 
 ctrl + shift + {1-9}
-	xrandr --output eDP-1-1 --brightness {0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1} 
+	xrandr --output eDP-1 --brightness {0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1} 
 
 # volume level
 
 shift + alt + {Up,Down}
-	pactl set-sink-volume @DEFAULT_SINK@ {+10%,-10%}
+	pactl set-sink-volume @DEFAULT_SINK@ {+5%,-5%}

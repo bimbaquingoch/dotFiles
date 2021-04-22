@@ -28,7 +28,8 @@ sudo cp gtk.css ~/.config/gtk-3.0/
 - alacritty.yml
 
   ```
-   ~/.config/alacritty/alacritty.yml
+  mkdir ~/.config/alacritty
+  ~/.config/alacritty/alacritty.yml
   ```
 
 - bspwn and bspwn_resize

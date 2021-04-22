@@ -142,11 +142,6 @@ super + shift + o
 super + shift + g
 	brave-browser-stable
 
-#github
-
-super + shift + h
-	brave-browser-stable https://www.github.com/ &
-
 # screenshots
 
 Print
@@ -161,9 +156,6 @@ super + e
 	xdg-open .
 
 # brightness
-
-# ctrl + shift + {Left,Up,Right,Down}
-# 	xrandr --output eDP-1-1 --brightness {0.3,0.5,0.7,1.2} 
 
 ctrl + shift + {1-9}
 	xrandr --output eDP-1 --brightness {0.2,0.3,0.4,0.5,0.6,0.7,0.8,0.9,1} 

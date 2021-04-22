@@ -15,6 +15,7 @@ sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.
 - First install powerlevel10k then copy this file
 
 ```
+sudo apt-get install zsh-syntax-highlighting zsh-autosuggestions -y
 cp .zshrc
 ```
 

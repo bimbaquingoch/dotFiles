@@ -98,11 +98,11 @@ super + ctrl + {1-9}
 	bspc node -o 0.{1-9}
 
 # cancel the preselection for the focused node
-super + ctrl + space
+super + ctrl + alt + space
 	bspc node -p cancel
 
 # cancel the preselection for the focused desktop
-super + ctrl + alt + space
+super + ctrl + shift + space
 	bspc query -N -d | xargs -I id -n 1 bspc node id -p cancel
 
 # move/resize
@@ -119,28 +119,29 @@ super + ctrl + alt + space
 super + ctrl + {Left,Down,Up,Right}
 	bspc node -v {-20 0,0 20,0 -20,20 0}
 
-# Custom move/resize
-alt + super + {Left,Down,Up,Right}
-	~/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
 
 # ---------------------------------------------
 # CUSTOM
 # ---------------------------------------------
 
+# Custom move/resize
+alt + super + {Left,Down,Up,Right}
+	~/.config/bspwm/scripts/bspwm_resize {west,south,north,east}
+
 # floating menu
 
 super + space
-	bash ~/.config/polybar/colorblocks/scripts/launcher.sh
+        bash ~/.config/polybar/scripts/launcher	
 
 # power menu
 
-super + shift + o
-	bash ~/.config/polybar/colorblocks/scripts/powermenu.sh
+# super + shift + o
+# 	      bash ~/.config/polybar/scripts/powermenu
 
-# Google-Chrome
+# Brave-browser
 
 super + shift + g
-	brave-browser-stable
+	brave-browser
 
 # screenshots
 

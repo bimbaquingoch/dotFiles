@@ -40,10 +40,10 @@ sudo cp gtk.css ~/.config/gtk-3.0/
   ~/.config/bspwm/scripts/bspwm_resize
   ```
 
-- compton.conf
+- picom.conf
 
   ```
-  ~/.config/compton/compton.conf
+  ~/.config/picom/picom.conf
   ```
 
 - sxhkrc

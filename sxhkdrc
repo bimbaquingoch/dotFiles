@@ -14,6 +14,7 @@ super + Escape
 # bspwm hotkeys
 #
 
+
 # quit/restart bspwm
 super + alt + {q,r}
 	bspc {quit,wm -r}
@@ -135,8 +136,8 @@ super + space
 
 # power menu
 
-# super + shift + o
-# 	      bash ~/.config/polybar/scripts/powermenu
+super + shift + o
+	      bash  ~/.config/polybar/scripts/powermenu_alt
 
 # Brave-browser
 

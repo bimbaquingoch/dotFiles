@@ -1,5 +1,15 @@
-# Fix the Java Problem
+# Created by newuser for 5.8.1
+# # Fix the Java Problem
 export _JAVA_AWT_WM_NONREPARENTING=1
+
+# fnm
+export PATH=/home/bimb/.fnm:$PATH
+eval "`fnm env`"
+
+# ANDROID
+export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
+export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
+export PATH=$PATH:$ANDROID_SDK_ROOT/platform-tools
 
 # Enable Powerlevel10k instant prompt. Should stay at the top of ~/.zshrc.
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
@@ -24,7 +34,8 @@ HISTFILE=~/.zsh_history
 
 # Use modern completion system
 autoload -Uz compinit
-compinit -i
+#compinit -i
+compinit
 
 zstyle ':completion:*' auto-description 'specify: %d'
 zstyle ':completion:*' completer _expand _complete _correct _approximate
@@ -56,11 +67,21 @@ PATH=/root/.local/bin:/snap/bin:/usr/sandbox/:/usr/local/bin:/usr/bin:/bin:/usr/
 alias ll='lsd -lh --group-dirs=first'
 alias la='lsd -a --group-dirs=first'
 alias l='lsd -l'
+alias L='lsd -l'
 alias lla='lsd -lha --group-dirs=first'
+alias LLA='lsd -lha --group-dirs=first'
 alias ls='lsd --group-dirs=first'
+alias LS='lsd --group-dirs=first'
 alias cat='bat'
-alias catn='/usr/bin/cat'
+#alias catn='/usr/bin/cat'
 alias ..='cd ..'
+alias cl='clear'
+alias th='touch'
+alias ext='exit'
+alias nrd='npm run dev'
+alias c='code .'
+alias C='code .'
+alias CD='cd'
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
@@ -127,4 +148,5 @@ function rmk(){
 }
  
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+source ~/powerlevel10k/powerlevel10k.zsh-theme
 source ~/powerlevel10k/powerlevel10k.zsh-theme

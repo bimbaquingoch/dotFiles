@@ -7,6 +7,7 @@
   "editor.minimap.enabled": false,
   "editor.fontFamily": "FiraCode NF",
   "editor.codeLensFontFamily": "FiraCode NF",
+  "editor.inlayHints.fontFamily": "FiraCode NF",
   "editor.guides.bracketPairs": true,
   "editor.quickSuggestions": {
     "other": true,
@@ -22,125 +23,10 @@
   "editor.linkedEditing": true,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.wordWrap": "on",
-  "editor.inlayHints.fontFamily": "FiraCode NF",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": true
   },
-  // fin editor
-  "files.autoSave": "afterDelay",
-  "window.zoomLevel": 2,
-  "eslint.enable": true,
-  "eslint.run": "onSave",
-  "emmet.includeLanguages": {
-    "javascript": "html"
-  },
-  "php-intellisense.trace.server": "verbose",
-  "php.validate.enable": true,
-  "php.validate.run": "onType",
-  "php.suggest.basic": true,
-  "[php]": {
-    "editor.formatOnSave": true,
-    "editor.defaultFormatter": "zobo.php-intellisense"
-  },
-  "intelephense.phpdoc.textFormat": "snippet",
-  "[javascript]": {
-    "editor.formatOnSave": true,
-    // "editor.defaultFormatter": "vscode.typescript-language-features"
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[typescript]": {
-    "editor.formatOnSave": true,
-    // "editor.defaultFormatter": "vscode.typescript-language-features"
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[json]": {
-    "editor.formatOnSave": true
-  },
-  "eslint.format.enable": true,
-  "[html]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[css]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "[jsonc]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  },
-  "[python]": {
-    "editor.defaultFormatter": "ms-python.python"
-  },
-  // nuevos
-  "javascript.format.insertSpaceAfterCommaDelimiter": true,
-  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
-  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
-  "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
-  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
-  "javascript.format.insertSpaceAfterConstructor": true,
-  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
-  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
-  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "javascript.format.semicolons": "insert",
-  "javascript.format.enable": true,
-  "javascript.updateImportsOnFileMove.enabled": "always",
-  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "javascript.autoClosingTags": true,
-  "javascript.validate.enable": true,
-  "javascript.preferences.jsxAttributeCompletionStyle": "auto",
-  // typescript
-  "typescript.format.insertSpaceAfterConstructor": true,
-  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
-  "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
-  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
-  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
-  "typescript.format.insertSpaceAfterTypeAssertion": true,
-  "typescript.format.semicolons": "insert",
-  "typescript.format.enable": true,
-  "typescript.updateImportsOnFileMove.enabled": "always",
-  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
-  "typescript.autoClosingTags": true,
-  "typescript.validate.enable": true,
-  "typescript.preferences.jsxAttributeCompletionStyle": "auto",
-  // fin TS
-  // prettier
-  "prettier.tabWidth": 2,
-  "prettier.jsxSingleQuote": true,
-  "prettier.htmlWhitespaceSensitivity": "strict",
-  "prettier.arrowParens": "always",
-  "prettier.jsxBracketSameLine": true,
-  "html.format.indentInnerHtml": true,
-  "html.format.wrapLineLength": 100,
-  "html.format.unformatted": "wbr",
-  "html.format.contentUnformatted": "pre,code,textarea",
-  "html.format.maxPreserveNewLines": 100,
-  "html.autoClosingTags": true,
-  "html.format.enable": true,
-  "todo-tree.general.tags": [
-    "BUG",
-    "HACK",
-    "FIXME",
-    "TODO",
-    "SAVEDB",
-    "XXX",
-    "[ ]",
-    "[x]"
-  ],
-  "todo-tree.filtering.excludeGlobs": [
-    "**/node_modules/**",
-    "**/vendor/**",
-    "**/bower_components/",
-    "**/dist/**"
-  ],
-  "git.confirmSync": false,
   "editor.renderWhitespace": "all",
   "editor.semanticHighlighting.enabled": true,
   "editor.tokenColorCustomizations": {
@@ -278,6 +164,129 @@
       "types": "#64aa9f"
     }
   },
+  // fin editor
+  "files.autoSave": "afterDelay",
+  "window.zoomLevel": 2,
+  "eslint.enable": true,
+  "eslint.run": "onSave",
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+  "php-intellisense.trace.server": "verbose",
+  "php.validate.enable": true,
+  "php.validate.run": "onType",
+  "php.suggest.basic": true,
+  "[php]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "zobo.php-intellisense"
+  },
+  "intelephense.phpdoc.textFormat": "snippet",
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    // "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    // "editor.defaultFormatter": "vscode.typescript-language-features"
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.format.enable": true,
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[jsonc]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.python"
+  },
+  // nuevos
+  "javascript.format.insertSpaceAfterCommaDelimiter": true,
+  "javascript.format.insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+  "javascript.format.insertSpaceAfterKeywordsInControlFlowStatements": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": true,
+  "javascript.format.insertSpaceAfterSemicolonInForStatements": true,
+  "javascript.format.insertSpaceBeforeAndAfterBinaryOperators": true,
+  "javascript.format.insertSpaceAfterConstructor": true,
+  "javascript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "javascript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "javascript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.format.semicolons": "insert",
+  "javascript.format.enable": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.inlayHints.propertyDeclarationTypes.enabled": true,
+  // inlayhints
+  // "javascript.inlayHints.enumMemberValues.enabled": true,
+  // "javascript.inlayHints.parameterNames.enabled": "all",
+  // "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": true,
+  // "javascript.inlayHints.functionLikeReturnTypes.enabled": true,
+  // "javascript.inlayHints.parameterTypes.enabled": true,
+  // "javascript.inlayHints.variableTypes.enabled": true,
+  // "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": true,
+  // end inlayhints
+  "javascript.autoClosingTags": true,
+  "javascript.validate.enable": true,
+  "javascript.preferences.jsxAttributeCompletionStyle": "auto",
+  // typescript
+  "typescript.format.insertSpaceAfterConstructor": true,
+  "typescript.format.placeOpenBraceOnNewLineForControlBlocks": true,
+  "typescript.format.placeOpenBraceOnNewLineForFunctions": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.format.insertSpaceAfterTypeAssertion": true,
+  "typescript.format.semicolons": "insert",
+  "typescript.format.enable": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.inlayHints.propertyDeclarationTypes.enabled": true,
+  "typescript.autoClosingTags": true,
+  "typescript.validate.enable": true,
+  "typescript.preferences.jsxAttributeCompletionStyle": "auto",
+  // fin TS
+  // prettier
+  "prettier.tabWidth": 2,
+  "prettier.jsxSingleQuote": true,
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.arrowParens": "always",
+  "prettier.jsxBracketSameLine": true,
+  "html.format.indentInnerHtml": true,
+  "html.format.wrapLineLength": 100,
+  "html.format.unformatted": "wbr",
+  "html.format.contentUnformatted": "pre,code,textarea",
+  "html.format.maxPreserveNewLines": 100,
+  "html.autoClosingTags": true,
+  "html.format.enable": true,
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "SAVEDB",
+    "XXX",
+    "[ ]",
+    "[x]"
+  ],
+  "todo-tree.filtering.excludeGlobs": [
+    "**/node_modules/**",
+    "**/vendor/**",
+    "**/bower_components/",
+    "**/dist/**"
+  ],
+  "git.confirmSync": false,
   "workbench.colorCustomizations": {
     // ayu light
     "[Default Light+]": {
@@ -513,7 +522,7 @@
   },
   "window.menuBarVisibility": "toggle",
   "workbench.activityBar.visible": false,
-  "workbench.colorTheme": "Default Light+",
+  "workbench.colorTheme": "CodeSandbox Black",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.preferredDarkColorTheme": "CodeSandbox Black",
   "workbench.preferredLightColorTheme": "Default Light+",

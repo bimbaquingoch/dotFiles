@@ -25,7 +25,7 @@
   "editor.inlayHints.fontFamily": "FiraCode NF",
   "editor.bracketPairColorization.enabled": true,
   "editor.codeActionsOnSave": {
-    "source.fixAll": true,
+    "source.fixAll": true
   },
   // fin editor
   "files.autoSave": "afterDelay",
@@ -100,7 +100,7 @@
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingJsxExpressionBraces": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBrackets": true,
   "typescript.format.insertSpaceAfterOpeningAndBeforeClosingTemplateStringBraces": true,
-  "typescript.fomat.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": true,
   "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
   "typescript.format.insertSpaceAfterTypeAssertion": true,
   "typescript.format.semicolons": "insert",
@@ -138,11 +138,148 @@
     "**/node_modules/**",
     "**/vendor/**",
     "**/bower_components/",
-    "**/dist/**",
+    "**/dist/**"
   ],
   "git.confirmSync": false,
   "editor.renderWhitespace": "all",
+  "editor.semanticHighlighting.enabled": true,
+  "editor.tokenColorCustomizations": {
+    // ayu light
+    "[Default Light+]": {
+      "textMateRules": [
+        {
+          "name": "Comment",
+          "scope": [
+            "comment"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#787b8099"
+          }
+        },
+        {
+          "name": "Number",
+          "scope": [
+            "constant.numeric"
+          ],
+          "settings": {
+            "foreground": "#a37acc"
+          }
+        },
+        {
+          "name": "Variable",
+          "scope": [
+            "variable",
+            "variable.parameter.function-call"
+          ],
+          "settings": {
+            "foreground": "#F0884B"
+          }
+        },
+        {
+          "name": "Member Variable",
+          "scope": [
+            "variable.member"
+          ],
+          "settings": {
+            "foreground": "#f07171"
+          }
+        },
+        {
+          "name": "Language variable",
+          "scope": [
+            "variable.language"
+          ],
+          "settings": {
+            "fontStyle": "italic",
+            "foreground": "#55b4d4"
+          }
+        },
+        {
+          "name": "Number",
+          "scope": [
+            "constant.numeric"
+          ],
+          "settings": {
+            "foreground": "#a37acc"
+          }
+        },
+        {
+          "name": "String",
+          "scope": [
+            "string",
+            "constant.other.symbol"
+          ],
+          "settings": {
+            "foreground": "#86b300"
+          }
+        },
+        {
+          "name": "Function name",
+          "scope": [
+            "entity.name.function"
+          ],
+          "settings": {
+            "foreground": "#f2ae49"
+          }
+        },
+        {
+          "name": "Function arguments",
+          "scope": [
+            "variable.parameter",
+            "meta.parameter"
+          ],
+          "settings": {
+            "foreground": "#a37acc"
+          }
+        },
+        {
+          "name": "Function call",
+          "scope": [
+            "variable.function",
+            "variable.annotation",
+            "meta.function-call.generic",
+            "support.function.go"
+          ],
+          "settings": {
+            "foreground": "#f2ae49"
+          }
+        },
+        {
+          "name": "Library function",
+          "scope": [
+            "support.function",
+            "support.macro"
+          ],
+          "settings": {
+            "foreground": "#f07171"
+          }
+        },
+        {
+          "name": "Imports and packages",
+          "scope": [
+            "entity.name.import",
+            "entity.name.package"
+          ],
+          "settings": {
+            "foreground": "#86b300"
+          }
+        },
+        {
+          "name": "Java primitive variable types",
+          "scope": [
+            "source.java storage.type.primitive"
+          ],
+          "settings": {
+            "foreground": "#222"
+          }
+        }
+      ],
+      "types": "#64aa9f"
+    }
+  },
   "workbench.colorCustomizations": {
+    // ayu light
     "[Default Light+]": {
       "activityBar.activeBorder": "#8a919933",
       "activityBar.border": "#8a919933",
@@ -219,13 +356,20 @@
       "sideBarSectionHeader.background": "#f8f9fa",
       "sideBarSectionHeader.foreground": "#8a9199",
       "sideBarSectionHeader.border": "#f8f9fa",
-      "editorGroup.border": "#5c6166",
+      "minimap.background": "#f8f9fa",
+      "minimap.selectionHighlight": "#035bd626",
+      "minimap.errorHighlight": "#e65050",
+      "minimap.findMatchHighlight": "#9f40ff2b",
+      "minimapGutter.addedBackground": "#6cbf43",
+      "minimapGutter.modifiedBackground": "#478acc",
+      "minimapGutter.deletedBackground": "#ff7383",
+      "editorGroup.border": "#6b7d8f1f",
       "editorGroupHeader.noTabsBackground": "#f8f9fa",
       "editorGroupHeader.tabsBackground": "#f8f9fa",
       "editorGroupHeader.tabsBorder": "#f8f9fa",
       "tab.activeBackground": "#f8f9fa",
       "tab.activeForeground": "#5c6166",
-      "tab.border": "#8a9199",
+      "tab.border": "#f8f9fa",
       "tab.activeBorder": "#ffaa33",
       "tab.unfocusedActiveBorder": "#8a9199",
       "tab.inactiveBackground": "#f8f9fa",
@@ -307,7 +451,7 @@
       "panelTitle.activeForeground": "#5c6166",
       "panelTitle.inactiveForeground": "#8a9199",
       "statusBar.foreground": "#8a9199",
-      "statusBar.border": "#8a919933",
+      "statusBar.border": "#f8f9fa",
       "statusBar.debuggingBackground": "#ed9366",
       "statusBar.debuggingForeground": "#fcfcfc",
       "statusBar.noFolderBackground": "#f3f4f5",
@@ -339,7 +483,7 @@
       "gitDecoration.deletedResourceForeground": "#ff7383b3",
       "gitDecoration.untrackedResourceForeground": "#6cbf43b3",
       "gitDecoration.ignoredResourceForeground": "#8a919980",
-      "gitDecoration.conflictingResourceForeground": "#E51400",
+      "gitDecoration.conflictingResourceForeground": "#ff7383b3",
       "gitDecoration.submoduleResourceForeground": "#a37accb3",
       "settings.headerForeground": "#5c6166",
       "settings.modifiedItemIndicator": "#478acc",

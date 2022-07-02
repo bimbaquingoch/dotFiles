@@ -2,10 +2,6 @@
 # # Fix the Java Problem
 export _JAVA_AWT_WM_NONREPARENTING=1
 
-# fnm
-export PATH=/home/bimb/.fnm:$PATH
-eval "`fnm env`"
-
 # ANDROID
 export ANDROID_SDK_ROOT=$HOME/Library/Android/sdk
 export PATH=$PATH:$ANDROID_SDK_ROOT/emulator
@@ -121,11 +117,3 @@ function rmk(){
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 source ~/powerlevel10k/powerlevel10k.zsh-theme
 source ~/powerlevel10k/powerlevel10k.zsh-theme
-
-# fnm
-export PATH=/home/bimb/.fnm:$PATH
-eval "`fnm env`"
-
-# fnm
-export PATH=/home/bimb/.fnm:$PATH
-eval "`fnm env`"
